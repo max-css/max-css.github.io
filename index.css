@@ -1,0 +1,81 @@
+/* common styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* header */
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.8rem;
+  flex-direction: row;
+
+  > a {
+    text-decoration: underline;
+    color: blue;
+    margin-left: 0.7rem;
+  }
+  > a:hover {
+    color: cornflowerblue;
+  }
+  > span {
+    font-size: larger;
+    font-weight: bold;
+  }
+}
+
+header {
+  padding: 3rem;
+  font-size: 1.25rem;
+
+  > div {
+    font-size: 1.1rem;
+  }
+}
+
+/* main */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14% auto auto auto;
+  max-width: 800px;
+}
+
+.content {
+  margin: 2rem;
+  color: #333;
+  > h1 {
+    font-size: 3rem;
+  }
+  > p {
+    font-size: 1.2rem;
+  }
+}
+
+/* footer */
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width: 880px) {
+  header {
+    padding: 1rem !important;
+  }
+}

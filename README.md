@@ -1,1 +1,1 @@
-# max-css.github.io
+# MaxCSS
